@@ -1,0 +1,47 @@
+# =========================================================================
+# eSports Tournament Management System - .gitignore
+# =========================================================================
+
+# Maven Build Artifacts
+target/
+*.class
+*.jar
+*.war
+*.ear
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# IntelliJ IDEA & IDE configurations
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Visual Studio Code
+.vscode/
+
+# Operating System Temporary Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary & Log files
+*.log
+logs/
+tmp/
+*.tmp
+
+# Uploads cache / runtime generated user avatars (keep directory structure if needed)
+uploads/avatars/*
+uploads/logos/*
+!uploads/avatars/.gitkeep
+!uploads/logos/.gitkeep
